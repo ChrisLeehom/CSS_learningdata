@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS选择器权重——第二个例子</title>
+  <style>
+    p { /* 1 */
+      color: purple;
+    }
+
+    div p { /* 1 + 1 = 2 */
+      color: green;
+    }
+
+    .box p { /* 10 + 1 = 11 */
+      color: orange;
+    }
+
+    #box p { /* 100 + 1 = 101 */
+      color: red;
+    }
+
+    div#box p { /* 1 + 100 + 1 = 102 */
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <p>我觉得能力更重要！</p>
+  <div class="box">
+    <p>其实这无非是证明自己价值、或被别人认可的一种方式，从客观的角度来讲，当你大学刚毕业的时候，没有工作经验，那学历肯定是让别人认可你的第一方式。</p>
+  </div>
+  <div id="box">
+    <p>但是如果你工作了三五年，还只能靠学历来证明自己的价值，那我觉得是很失败的。</p>
+  </div>
+</body>
+</html>

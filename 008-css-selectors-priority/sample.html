@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS选择器权重——一个例子</title>
+  <style>
+    #h-one {
+      color: blue
+    }
+
+    * {
+      color: orange
+    }
+
+    .header {
+      color: green
+    }
+
+    h1 {
+      color: red
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="header" id="h-one" style="color: purple;">
+    学历和能力哪个更重要？
+  </h1>
+</body>
+
+</html>

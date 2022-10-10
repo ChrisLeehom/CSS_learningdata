@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS组合选择器</title>
+  <style>
+    h1 {
+      text-align: center;
+    }
+
+    /* .color {
+      color: blue;
+    } */
+
+    div h3 {
+      color: blue;
+    }
+
+    div li p {
+      color: blue;
+    }
+
+    div>p {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>浠浠呀老师，应届前端工程师找工作，有啥建议吗？</h1>
+
+    <p>应届生千万别说“虽然我没有经验，但是我愿意去学”，我之前在面试很多应届生的时候，经常听到这句话，其实一听到这句话，基本上面试就结束了！ 现在是互联网时代你还对行业信息一无所知？</p>
+
+    <h3>你可以这样：</h3>
+
+    <ol>
+      <li>
+        <p>先在网上搜索即将要面试的公司官网，看看这个公司所在行业的地位、主要研发的产品都是什么，以及其他竞品公司相关的情况。</p>
+      </li>
+      <li>
+        <p>然后再去搜索该行业相关文章、论坛和资讯，提前查看和储备这个行业的基础知识。</p>
+      </li>
+      <li>
+        <p>最后用思维导图整理出自己最满意的学习案例，用事实证明自己的学习能力。</p>
+      </li>
+    </ol>
+  </div>
+</body>
+</html>

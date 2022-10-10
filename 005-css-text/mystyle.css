@@ -1,0 +1,14 @@
+body {
+  /* 一个页面的默认文本颜色是在 body 选择器中定义的 */
+  color: blue;
+} 
+
+h1 {
+  color: green; /* h1标标签颜色为绿色 */
+}
+
+p.transform {
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
+  text-transform: capitalize;
+}

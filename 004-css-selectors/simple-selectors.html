@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>简单选择器——元素选择器</title>
+  <style>
+    * {
+      background-color: yellow;
+    }
+
+    html,body {
+      background-color: aliceblue;
+    }
+
+    h1 {
+      text-align: center;
+      color: purple; 
+    }
+
+    p {
+      color: red;
+    }
+
+    #para2 {
+      text-align: center;
+      /* font-style: italic; */
+    }
+
+    /* .italic{
+      font-style: italic;
+      text-decoration: underline;
+    } */
+
+    p.deco {
+      text-decoration: underline;
+    }
+    
+    h1,#para2 {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="italic deco">浠浠呀老师，女生学前端好找工作吗？</h1>
+  <p>
+    学前端的女生非常好找工作，同样技术水平的男生和女生来面试，女生的录取率很高。
+  </p>
+  <p id="para2" class="italic deco">
+    我们前端部门的男女比例差不多是16：1，但是后端部门的程序员几乎都是男生，木讷又不爱交流，遇到咱们前端的女生也好改bug，也能更好的互相帮助，推进工作进度！
+  </p>
+</body>
+</html>

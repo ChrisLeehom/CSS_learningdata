@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+div > img {
+  width: 100%;
+}
+
+div.nav {
+  position: sticky;
+  top: 0;
+}
+
+div.side {
+  width: 240px;
+  position: fixed;
+  top: 300px;
+  right: 0;
+}
+
+div.side img {
+  width: 100%;
+}
+
+

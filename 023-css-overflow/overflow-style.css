@@ -1,0 +1,21 @@
+#overflowTest {
+  background: #4CAF50;
+  padding: 15px;
+  border: 1px solid #ccc;
+
+  width: 30%;
+  height: 300px;
+
+  /* overflow: visible; */
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+h1 {
+  width: 310px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS伪类选择器</title>
+  <style>
+    a:link {
+      color: red;
+    }
+
+    a:visited {
+      color: green;
+    }
+
+    a:hover {
+      color: yellow;
+    }
+
+    a:active {
+      color: skyblue;
+    }
+
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: skyblue;
+    }
+
+    div:hover {
+      background-color: red;
+    }
+
+    div:active {
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <a href="#">王者英雄最强出装</a>
+
+  <div>
+    我是一个普通的div标签
+  </div>
+</body>
+</html>
